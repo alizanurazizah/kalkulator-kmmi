@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <!--character encoding-->
+        <meta charset="utf-8">
+        <!--judul-->
+        <title>Kalkulator</title>
+        <!--link css-->
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class ="calculator">
+            <!--Layar pada kalkulator-->
+            <input type="text" class="calculator-screen" value="0" disabled/>
+            <!--Tombol-tombol pada kalkulator-->
+            <div class="calculator-keys">
+                <div class="row">
+                    <button class="all-clear">AC</button>
+                    <button class="percentage">%</button>
+                    <button class="operator" value ="÷">&divide;</button>
+                </div>
+                <div class="row">
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="operator" value="×">&times;</button>
+                </div>
+                <div class="row">
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator" value="-">-</button>
+                </div>
+                <div class="row">
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator" value="+">+</button>
+                </div>
+                <div class="row">
+                    <button class="number zero-btn">0</button>
+                    <button class="decimal" value=".">.</button>
+                    <button class="equal-sign">=</button>
+                </div>
+            </div>
+        </div>
+        <!--Menyambungkan File HTML dengan File JavaScript-->
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
